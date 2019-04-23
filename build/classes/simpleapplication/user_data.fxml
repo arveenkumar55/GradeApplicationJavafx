@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="simpleapplication.User_dataController">
+   <children>
+      <Label layoutX="193.0" layoutY="33.0" prefHeight="17.0" prefWidth="168.0" text="Student Personal Information" />
+      <Label layoutX="41.0" layoutY="113.0" prefHeight="17.0" prefWidth="71.0" text="First_Name" />
+      <Label layoutX="41.0" layoutY="174.0" prefHeight="17.0" prefWidth="71.0" text="LastName" />
+      <TextField fx:id="first_name" layoutX="184.0" layoutY="109.0" promptText="enter first name" />
+      <TextField fx:id="last_name" layoutX="184.0" layoutY="170.0" promptText="enter first name" />
+      <Button layoutX="206.0" layoutY="248.0" mnemonicParsing="false" onAction="#saveData" prefHeight="25.0" prefWidth="82.0" text="Sumbit" />
+   </children>
+</AnchorPane>
